@@ -1,0 +1,14 @@
+{
+  "name": "@types/pengu",
+  "version": "0.0.1",
+  "description": "types package for pengu loader",
+  "private": true,
+  "license": "ISC",
+  "types": "index.d.ts",
+  "files": [
+    "**/*.d.ts"
+  ],
+  "dependencies": {
+    "@types/league": "github:vanillamaster/league-types#semver:0.0.1"
+  }
+}
