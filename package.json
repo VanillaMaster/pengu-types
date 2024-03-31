@@ -8,6 +8,9 @@
   "files": [
     "**/*.d.ts"
   ],
+  "scripts": {
+    "update:lock": "npm i --package-lock-only"
+  },
   "dependencies": {
     "@types/league": "github:vanillamaster/league-types#semver:0.0.1"
   }
