@@ -8,6 +8,10 @@
   "files": [
     "**/*.d.ts"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VanillaMaster/pengu-types.git"
+  },
   "scripts": {
     "update:lock": "npm i --package-lock-only"
   },
