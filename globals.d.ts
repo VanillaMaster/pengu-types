@@ -3,9 +3,11 @@ export {}; // Make this a module
 interface Window {
     Pengu: PenguLoader.Pengu;
     CommandBar: PenguLoader.CommandBar;
-    Effect: PenguLoader.Effect;
     DataStore: PenguLoader.DataStore;
+    Effect: PenguLoader.Effect;
     PluginFS: PenguLoader.PluginFS;
+    Toast: PenguLoader.Toast
+    rcp: PenguLoader.RCP;
 
     /**@deprecated */
     __llver: string;    
@@ -21,10 +23,11 @@ interface Window {
 declare global {
     var Pengu: PenguLoader.Pengu;
     var CommandBar: PenguLoader.CommandBar;
-    var Effect: PenguLoader.Effect;
     var DataStore: PenguLoader.DataStore;
+    var Effect: PenguLoader.Effect;
     var PluginFS: PenguLoader.PluginFS;
-    var P: PenguLoader.Toast;
+    var Toast: PenguLoader.Toast;
+    var rcp: PenguLoader.RCP;
 
     /**
      * @deprecated
