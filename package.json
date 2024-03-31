@@ -1,6 +1,6 @@
 {
   "name": "@types/pengu",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "types package for pengu loader",
   "private": true,
   "license": "ISC",
